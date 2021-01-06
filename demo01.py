@@ -116,29 +116,3 @@ user_info = {}
 user_info.update(name=a,age=b,sex=c) 
 print(user_info) 
 """
-
-
-
-
-
-
-
-
-#作业：录入学生成绩，及格和不及格分开存放
-
-"""
-highlevel = {}
-lowlevel = {}
-aaa = 1 
-while aaa <= 5:
-    name = input("请输入姓名：")
-    score = int(input("请输入成绩："))
-    aaa = aaa+1
-    if score >= 60:
-        highlevel[name] = score 
-    else:
-        lowlevel[name] = score
-print("highlevel:",highlevel)
-print("lowlevel:",lowlevel)
-
-"""
