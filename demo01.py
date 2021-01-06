@@ -107,12 +107,18 @@ del a["name"] #删除通过key
 """
 
 #作业： 获取用户个人信息，并存储到字典中，包括了name，age，sex
-a = input("insert a name please: ")
-b = input("inset an age please: ")
-c = input("insert sex please: ")
+"""
+a = input("insert your name please: ")
+b = int(input("insert your age please: ")) 
+c = input("insert your sex please: ")
 
-custom_info = {"name": a,"age":b,"sex":c}
-print(custom_info) 
+user_info = {}
+user_info.update(name=a,age=b,sex=c) 
+print(user_info) 
+"""
+
+
+
 
 
 
