@@ -54,7 +54,7 @@ except:
 # 面向对象编程
 # 类里面所有的方法，都必须要传一个参数，叫self
 """
-class GirlFriend():
+class Friend():
     def __init__(self,sex,high,weight,hair,age):
         self.sex = sex
         self.high = high
@@ -87,19 +87,19 @@ class House():
         self.style = style
     
     def people(self):
-        print("you own the house but you live with your lovely girlfriend")
+        print("you own the house but you live with your friend")
     
     def pet(self):
         print("you have one dog and one cat")
     
 #类的实例化
-halen = GirlFriend("femal","169cm","55kg","short","24")
+halen = Friend("femal","169cm","55kg","short","24")
 halen.talent(1)
 halen.work()
 print(halen.high) 
 halen.personality()
 
-dream = House("杭州","滨江繁华区能从窗户看到美丽的钱塘江风景","三室两卫一厅","干净整洁性冷淡")
+dream = House("杭州","滨江繁华区能从窗户看到美丽的钱塘江风景","三室两卫一厅","干净整洁")
 dream.people()
 #类的继承
 #重写、多态
